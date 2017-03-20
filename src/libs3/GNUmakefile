@@ -61,6 +61,8 @@ LIBS3_VER := $(LIBS3_VER_MAJOR).$(LIBS3_VER_MINOR)
 # don't want verbosity in the build process.
 # -----------------------------------------------------------------------------
 
+VERBOSE = true
+
 ifdef VERBOSE
         VERBOSE = true
         VERBOSE_ECHO = @ echo
